@@ -5,13 +5,13 @@ PERL,5,3
 Bash,1,8
 
 
-red: #f44242
-yellow: #ffa31a
-blue: #0099e6
-green: #47d147
+red     : #f44242
+yellow  : #ffa31a
+blue    : #0099e6
+green   : #47d147
 
 max green: #47d147
-#46d246
+mid green: #46d246
 min green: #c1f0c1
 
 
@@ -23,10 +23,7 @@ Blue Min: #adebeb
 
 .range(["#c9e8d9", "#43a374"]);
 
-
-
-
-
-
-
-
+Help Urls
+=========
+(Create a bubble chart from a Google Spreadsheet using D3.js)
+https://blogs.it.ox.ac.uk/acit-rs-team/2014/10/10/how-to-create-a-bubble-chart-from-a-google-spreadsheet-using-d3-js/
