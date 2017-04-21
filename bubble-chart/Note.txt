@@ -1,0 +1,32 @@
+Technology,People,Avg_Experience
+Java,12,5
+Oracle,2,9
+PERL,5,3
+Bash,1,8
+
+
+red: #f44242
+yellow: #ffa31a
+blue: #0099e6
+green: #47d147
+
+max green: #47d147
+#46d246
+min green: #c1f0c1
+
+
+
+Blue Max: #1f7a7a
+Blue Min: #adebeb
+.range(["#adebeb", "#1f7a7a"]);
+
+
+.range(["#c9e8d9", "#43a374"]);
+
+
+
+
+
+
+
+

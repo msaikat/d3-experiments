@@ -1,0 +1,130 @@
+{
+    "domain": "All",
+    "details": [
+          {
+            "domain": "MAM",
+            "people": 17,
+            "avgExperience": 4
+          },
+          {
+            "domain": "Back End",
+            "people": 12,
+            "avgExperience": 4
+          },
+          {
+            "domain": "Test automation",
+            "people": 9,
+            "avgExperience": 3
+          },
+          {
+            "domain": "Build automation",
+            "people": 8,
+            "avgExperience": 4
+          },
+          {
+            "domain": "QA",
+            "people": 8,
+            "avgExperience": 8
+          },
+          {
+            "domain": "Front End",
+            "people": 8,
+            "avgExperience": 3
+          },
+          {
+            "domain": "SAAS",
+            "people": 6,
+            "avgExperience": 3
+          },
+          {
+            "domain": "ERP",
+            "people": 6,
+            "avgExperience": 3
+          },
+          {
+            "domain": "Broadcast",
+            "people": 6,
+            "avgExperience": 3
+          },
+          {
+            "domain": "DevOps",
+            "people": 5,
+            "avgExperience": 4
+          },
+          {
+            "domain": "CI",
+            "people": 5,
+            "avgExperience": 4
+          },
+          {
+            "domain": "Media transcoder",
+            "people": 4,
+            "avgExperience": 3
+          },
+          {
+            "domain": "VoIP",
+            "people": 4,
+            "avgExperience": 3
+          },
+          {
+            "domain": "E learning",
+            "people": 4,
+            "avgExperience": 3
+          },
+          {
+            "domain": "Health care",
+            "people": 3,
+            "avgExperience": 4
+          },
+          {
+            "domain": "Sports analysis",
+            "people": 2,
+            "avgExperience": 3
+          },
+          {
+            "domain": "Survey System",
+            "people": 2,
+            "avgExperience": 3
+          },
+          {
+            "domain": "CMS",
+            "people": 2,
+            "avgExperience": 5
+          },
+          {
+            "domain": "AI",
+            "people": 1,
+            "avgExperience": 3
+          },
+          {
+            "domain": "Mobile Commerce",
+            "people": 1,
+            "avgExperience": 3
+          },
+          {
+            "domain": "Machine Learning",
+            "people": 1,
+            "avgExperience": 1
+          },
+          {
+            "domain": "Online hotel",
+            "people": 1,
+            "avgExperience": 3
+          },
+          {
+            "domain": "Real estate",
+            "people": 1,
+            "avgExperience": 3
+          },
+          {
+            "domain": "Computer Vision",
+            "people": 1,
+            "avgExperience": 1
+          },
+          {
+            "domain": "Augmented Reallity",
+            "people": 1,
+            "avgExperience": 2
+          }
+    ]
+}

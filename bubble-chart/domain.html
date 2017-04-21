@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <title>Domain</title>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+    </head>
+    <body>
+        <script>
+            var width = 1000,
+                height = 1000;
+            
+            var canvas = d3.select("body").append("svg")
+                        .attr("width", width)
+                        .attr("height", height);
+            
+            var legend = d3.select("body").append("svg")
+                        .attr("width", "40")
+                        .attr("height", "250")
+                        .style({
+                            "position": "absolute",
+                            "background": "-webkit-linear-gradient(#c9e8d9, #43a374)",
+                            "background": "-moz-linear-gradient(#c9e8d9, #43a374)",
+                            "background": "linear-gradient(#c9e8d9, #43a374)"
+                        });
+            
+            var legendMin = d3.select("body").append("div")
+                    .text("Minimum Number of People")
+                    .style({
+                            "position": "absolute",
+                            "left": "1060px",
+                            "top": "8px",
+                            "font-family": "Arial"
+                        });
+            
+            var legendMax = d3.select("body").append("div")
+                    .text("Maximum Number of People")
+                    .style({
+                            "position": "absolute",
+                            "left": "1060px",
+                            "top": "240px",                           
+                            "font-family": "Arial"
+                        });
+                        
+                       
+            
+            var pack = d3.layout.pack()
+                        .size([width, height])
+                        .children(function(d) { return d.details; })
+                        .value(function(d) { return d.people; })
+                        .padding(4);
+            
+            var colorScale = d3.scale.linear()
+                            .domain([1, 8])
+                            .range(["#c9e8d9", "#43a374"]);
+            
+            var fontScale = d3.scale.linear()
+                            .domain([1, 12])
+                            .range([8, 36]);
+                        
+            d3.json("domain.json", function(data) {                
+                
+                var nodes = pack.nodes(data);
+                
+                var node = canvas.selectAll(".node")
+                            .data(nodes)
+                            .enter()
+                            .append("g")
+                                .attr("class", "node")
+                                .attr("transform", function(d) { return "translate(" + d.x + ", " + d.y + ")" });
+                
+                
+                
+                node.append("circle")
+                        .attr("r", function(d) { return d.r; })
+                        .attr("fill", function(d) { return d.children ? "transparent" : colorScale(d.avgExperience) });
+                        
+                
+                node.append("text")
+                        .attr("text-anchor", "middle")
+                        .text(function(d) { return d.children ? "" : d.domain; })
+                        .style({                            
+                            "font-family": "Arial",
+                            "font-size": function(d) { return fontScale(d.people); }
+                        });
+                
+                node.append("text")
+                        .attr("text-anchor", "middle")
+                        .attr("y", function(d) { return d.children ? 0 : fontScale(d.people); })
+                        .text(function(d) { return d.children ? "" : "(" + d.avgExperience + ")"; })
+                        .style({                            
+                            "font-family": "Arial",
+                            "font-size": function(d) { return fontScale(d.people); }                            
+                        });
+                
+            });
+            
+        </script>
+    </body>
+</html>
