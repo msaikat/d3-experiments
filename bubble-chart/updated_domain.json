@@ -2,7 +2,7 @@
     "domain": "All",
     "details":[
 		  {
-			"domain": "Artificial intelligence",
+			"domain": "AI",
 			"people": 1,
 			"avgExperience": 3
 		  },
@@ -17,7 +17,7 @@
 			"avgExperience": 4
 		  },
 		  {
-			"domain": "Broadcast Media/Graphics",
+			"domain": "Broadcast Graphics",
 			"people": 3,
 			"avgExperience": 4
 		  },
@@ -37,7 +37,7 @@
 			"avgExperience": 1
 		  },
 		  {
-			"domain": "Continuous delivery",
+			"domain": "Continuous Delivery",
 			"people": 5,
 			"avgExperience": 4
 		  },
@@ -47,14 +47,9 @@
 			"avgExperience": 4
 		  },
 		  {
-			"domain": "E learning solutions",
+			"domain": "E learning",
 			"people": 3,
 			"avgExperience": 2
-		  },
-		  {
-			"domain": "Electric Vehicle Charging System",
-			"people": 1,
-			"avgExperience": 3
 		  },
 		  {
 			"domain": "ERP solutions",
@@ -72,12 +67,12 @@
 			"avgExperience": 2
 		  },
 		  {
-			"domain": "Health care system",
+			"domain": "Health Care",
 			"people": 1,
 			"avgExperience": 4
 		  },
 		  {
-			"domain": "IT Support & System Administration",
+			"domain": "Sys Admin",
 			"people": 3,
 			"avgExperience": 8
 		  },
@@ -92,22 +87,22 @@
 			"avgExperience": 2
 		  },
 		  {
-			"domain": "Media asset management",
+			"domain": "MAM",
 			"people": 14,
 			"avgExperience": 4
 		  },
 		  {
-			"domain": "Media transcoder",
+			"domain": "Media Transcoder",
 			"people": 3,
 			"avgExperience": 3
 		  },
 		  {
-			"domain": "Mobile commerce",
+			"domain": "Mobile Commerce",
 			"people": 1,
 			"avgExperience": 3
 		  },
 		  {
-			"domain": "Online hotel reservation",
+			"domain": "Hotel Reservation",
 			"people": 1,
 			"avgExperience": 3
 		  },
@@ -117,7 +112,7 @@
 			"avgExperience": 3
 		  },
 		  {
-			"domain": "Quality assurance",
+			"domain": "QA",
 			"people": 6,
 			"avgExperience": 7
 		  },
@@ -127,7 +122,7 @@
 			"avgExperience": 3
 		  },
 		  {
-			"domain": "Sports analysis",
+			"domain": "Sports Analysis",
 			"people": 2,
 			"avgExperience": 3
 		  },
@@ -137,7 +132,7 @@
 			"avgExperience": 3
 		  },
 		  {
-			"domain": "Test automation",
+			"domain": "Test Automation",
 			"people": 8,
 			"avgExperience": 3
 		  },
