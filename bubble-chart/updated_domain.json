@@ -1,0 +1,150 @@
+{
+    "domain": "All",
+    "details":[
+		  {
+			"domain": "Artificial intelligence",
+			"people": 1,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Augmented Reallity",
+			"people": 1,
+			"avgExperience": 2
+		  },
+		  {
+			"domain": "Back End",
+			"people": 8,
+			"avgExperience": 4
+		  },
+		  {
+			"domain": "Broadcast Media/Graphics",
+			"people": 3,
+			"avgExperience": 4
+		  },
+		  {
+			"domain": "Build automation",
+			"people": 7,
+			"avgExperience": 4
+		  },
+		  {
+			"domain": "CMS",
+			"people": 1,
+			"avgExperience": 8
+		  },
+		  {
+			"domain": "Computer Vision",
+			"people": 1,
+			"avgExperience": 1
+		  },
+		  {
+			"domain": "Continuous delivery",
+			"people": 5,
+			"avgExperience": 4
+		  },
+		  {
+			"domain": "DevOps",
+			"people": 4,
+			"avgExperience": 4
+		  },
+		  {
+			"domain": "E learning solutions",
+			"people": 3,
+			"avgExperience": 2
+		  },
+		  {
+			"domain": "Electric Vehicle Charging System",
+			"people": 1,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "ERP solutions",
+			"people": 4,
+			"avgExperience": 4
+		  },
+		  {
+			"domain": "Front End",
+			"people": 4,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Game Dev",
+			"people": 1,
+			"avgExperience": 2
+		  },
+		  {
+			"domain": "Health care system",
+			"people": 1,
+			"avgExperience": 4
+		  },
+		  {
+			"domain": "IT Support & System Administration",
+			"people": 3,
+			"avgExperience": 8
+		  },
+		  {
+			"domain": "Machine Learning",
+			"people": 1,
+			"avgExperience": 1
+		  },
+		  {
+			"domain": "Map SDK",
+			"people": 1,
+			"avgExperience": 2
+		  },
+		  {
+			"domain": "Media asset management",
+			"people": 14,
+			"avgExperience": 4
+		  },
+		  {
+			"domain": "Media transcoder",
+			"people": 3,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Mobile commerce",
+			"people": 1,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Online hotel reservation",
+			"people": 1,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Property Management",
+			"people": 1,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Quality assurance",
+			"people": 6,
+			"avgExperience": 7
+		  },
+		  {
+			"domain": "SAAS",
+			"people": 4,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Sports analysis",
+			"people": 2,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Survey System",
+			"people": 2,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "Test automation",
+			"people": 8,
+			"avgExperience": 3
+		  },
+		  {
+			"domain": "VoIP",
+			"people": 4,
+			"avgExperience": 3
+		  }
+		]
+}

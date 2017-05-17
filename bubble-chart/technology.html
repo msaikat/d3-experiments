@@ -24,7 +24,7 @@
                         });
             
             var legendMin = d3.select("body").append("div")
-                    .text("Minimum Number of People")
+                    .text("Less People")
                     .style({
                             "position": "absolute",
                             "left": "1060px",
@@ -33,7 +33,7 @@
                         });
             
             var legendMax = d3.select("body").append("div")
-                    .text("Maximum Number of People")
+                    .text("More People")
                     .style({
                             "position": "absolute",
                             "left": "1060px",
@@ -58,7 +58,7 @@
                             .domain([1, 12])
                             .range([12, 36]);
                         
-            d3.json("technology.json", function(data) {                
+            d3.json("updated_technology.json", function(data) {                
                 
                 var nodes = pack.nodes(data);
                 
@@ -87,7 +87,7 @@
                 node.append("text")
                         .attr("text-anchor", "middle")
                         .attr("y", function(d) { return d.children ? 0 : fontScale(d.people); })
-                        .text(function(d) { return d.children ? "" : "(" + d.avgExperience + ")"; })
+                        .text(function(d) { return d.children ? "" : "(" + d.avgExperience + " Y)"; })
                         .style({                            
                             "font-family": "Arial",
                             "font-size": function(d) { return fontScale(d.people); }                            

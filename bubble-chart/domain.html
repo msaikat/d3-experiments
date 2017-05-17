@@ -24,7 +24,7 @@
                         });
             
             var legendMin = d3.select("body").append("div")
-                    .text("Minimum Number of People")
+                    .text("Less People")
                     .style({
                             "position": "absolute",
                             "left": "1060px",
@@ -33,7 +33,7 @@
                         });
             
             var legendMax = d3.select("body").append("div")
-                    .text("Maximum Number of People")
+                    .text("More People")
                     .style({
                             "position": "absolute",
                             "left": "1060px",
@@ -44,6 +44,7 @@
                        
             
             var pack = d3.layout.pack()
+                        .sort(null)
                         .size([width, height])
                         .children(function(d) { return d.details; })
                         .value(function(d) { return d.people; })
@@ -57,7 +58,7 @@
                             .domain([1, 12])
                             .range([8, 36]);
                         
-            d3.json("domain.json", function(data) {                
+            d3.json("updated_domain.json", function(data) {                
                 
                 var nodes = pack.nodes(data);
                 
